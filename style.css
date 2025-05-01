@@ -1,0 +1,121 @@
+/* * {
+    outline: 1px solid red;
+} */
+body {
+    background-image: url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.container li {
+    list-style: none;
+    position: relative; 
+}
+.container a {
+    text-decoration: none;
+    color: #3B6790;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    padding: 10px;
+}
+.logo {
+    width: 250px;
+    margin: 0;
+}
+.logo img {
+    width: 100%;
+}
+.level-1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background:#F2F1EC;
+    padding: 7px 0px;
+    flex-direction: column;
+    width: 125px;
+    box-shadow: 0px 10px 80px rgba(0,0,0,0.3);
+}
+.level-1 li {
+    padding: 15px 10px;
+    text-align: left;
+}
+.htmlcss:hover .level-1 {
+    display: block;
+}
+.level-2 {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 100%;
+    background:#F2F1EC;
+    padding: 7px 0px;
+    flex-direction: column;
+    width: 125px;
+    box-shadow: 0px 10px 80px rgba(0,0,0,0.3);
+}
+.more:hover .level-2 {
+    display: block;
+}
+.level-3 {
+    display: none;
+    position: absolute;
+    top: 25%;
+    left: 100%;
+    background:#F2F1EC;
+    padding: 7px 0px;
+    flex-direction: column;
+    min-width: 175px;
+    box-shadow: 0px 10px 80px rgba(0,0,0,0.3);
+}
+.preloader:hover .level-3 {
+    display: block;
+}
+.javascript{
+    margin: 0px;
+    padding: 0px;
+}
+.java-level-1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    transform: translateX(-40%);
+    background:#F2F1EC;
+    padding: 7px 0px;
+    flex-direction: column;
+    min-width: 190px;
+    box-shadow: 0px 10px 80px rgba(0,0,0,0.3);
+}
+.java-level-1 ul{
+    padding:0px;
+}
+.java-level-1 h1{
+    font-size:18px;
+    text-align: center;
+    color: #3B6790;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.java-level-1 li {
+    display: flex;
+    gap:50px;
+    padding: 15px 10px;
+    text-align: left;
+ }
+.javascript:hover .java-level-1 {
+    display: block;
+}
